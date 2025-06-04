@@ -38,7 +38,7 @@ class _TypingExamplePageState extends State<TypingExamplePage> {
   void _startTypingSimulation() async {
     await Future.delayed(const Duration(seconds: 1));
     _controller.add(
-      "Hi! I'm flutter_typing_ai 😎\n \n simulate typing in a smart way ✍️",
+      "Hi! I'm flutter_typing_ai \n simulate typing in a smart way ",
     );
   }
 
@@ -51,7 +51,7 @@ class _TypingExamplePageState extends State<TypingExamplePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('مثال flutter_typing_ai')),
+      appBar: AppBar(title: const Text('Example flutter_typing_ai')),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Center(
@@ -59,7 +59,6 @@ class _TypingExamplePageState extends State<TypingExamplePage> {
             textStream: _controller.stream,
             style: const TextStyle(fontSize: 20),
             useMarkdown: true,
-            enableSound: true,
           ),
         ),
       ),
