@@ -46,7 +46,7 @@ TypingText(
 TypingText(
   textStream: yourStreamOfText,
   useMarkdown: true,
-)```
+)
 ```
 ## 📚 Parameters
 
@@ -61,14 +61,10 @@ TypingText(
 | `minDelay`      | `Duration`        | `Duration(milliseconds: 30)`  | Minimum delay between typing each character, to simulate typing speed variance.               |
 | `maxDelay`      | `Duration`        | `Duration(milliseconds: 150)` | Maximum delay between typing each character, to simulate typing speed variance.               |
 
-## 🛠️ Contributing
-
-Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/your-username/flutter_typing_ai/issues).
-
 ## 📄 License
 
-MIT © [Your Name or Organization]
+MIT License © 2025 Rezaqi Adib
+
 
 ## 📦 Example App
 
@@ -80,3 +76,8 @@ Check out the full example in the [`example`](example/lib/main.dart) folder for 
 - 📚 Storytelling / interactive fiction
 - 🧪 Typing effects in tutorials or onboarding
 - 🎮 Narrative games
+
+## 🛠️ Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](https://github.com/rezaqi/flutter_typing_ai/issues).
