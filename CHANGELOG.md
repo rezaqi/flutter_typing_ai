@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.0.2] - 2025-06-05
+
 ## [1.0.1] - 2025-06-05
 ### Changed
 - Removed `simulateTypos` feature for cleaner typing effect.

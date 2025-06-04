@@ -1,6 +1,6 @@
 name: flutter_typing_ai
 description: A smart Flutter widget that simulates human-like typing with typos, markdown, sound, and more.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/rezaqi/flutter_typing_ai
 repository: https://github.com/rezaqi/flutter_typing_ai
 issue_tracker: https://github.com/rezaqi/flutter_typing_ai/issues

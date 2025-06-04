@@ -1,6 +1,6 @@
 # 🧠 flutter_typing_ai
 
-A smart Flutter widget that simulates **human-like typing** with realistic delays, typos, markdown rendering, and sound effects — perfect for chatbots, storytelling, or AI assistants.
+A sophisticated Flutter widget that mimics natural human typing with adjustable delays, optional typos simulation, Markdown support, and sound effects — ideal for chatbots, interactive stories, and AI assistants.
 
 ![version](https://img.shields.io/pub/v/flutter_typing_ai?style=flat-square)
 ![likes](https://img.shields.io/pub/likes/flutter_typing_ai?style=flat-square)
@@ -11,8 +11,6 @@ A smart Flutter widget that simulates **human-like typing** with realistic delay
 ## ✨ Features
 
 - ⏱️ **Realistic typing speed** with random delays between characters.
-- 😅 **Human-like typos** (with smart correction behavior).
-- 🔊 Optional **keyboard click sound** per character.
 - 🔁 Supports **stream-based typing** (`Stream<String>`).
 - 🧾 **Markdown** support (bold, italics, code, etc.).
 
@@ -24,7 +22,7 @@ A smart Flutter widget that simulates **human-like typing** with realistic delay
 
 ```yaml
 dependencies:
-  flutter_typing_ai: ^1.0.0
+  flutter_typing_ai: ^1.0.2
 ```
 ### 2. Import it
 
@@ -38,8 +36,6 @@ import 'package:flutter_typing_ai/flutter_typing_ai.dart';
 TypingText(
   text: "Hello, I type like a real human... 🤖",
   style: TextStyle(fontSize: 20),
-  simulateTypos: true,
-  enableSound: true,
   useMarkdown: false,
 )
 // Stream-based typing
@@ -54,9 +50,7 @@ TypingText(
 |-----------------|-------------------|--------------------------------|-----------------------------------------------------------------------------------------------|
 | `text`          | `String?`         | `null`                         | The static text to be typed out character by character.                                       |
 | `textStream`    | `Stream<String>?` | `null`                         | A stream of text chunks to type dynamically, useful for live updates.                         |
-| `style`         | `TextStyle`       | -                              | Text style to apply to the typed text.                                                        |
-| `simulateTypos` | `bool`            | `false`                       | Enables simulation of human-like typos and corrections.                                       |
-| `enableSound`   | `bool`            | `false`                       | Enables keyboard click sound effect during typing.                                            |
+| `style`         | `TextStyle`       | -                              | Text style to apply to the typed text.                                            |
 | `useMarkdown`   | `bool`            | `false`                       | Enables Markdown rendering for rich text formatting (bold, italic, code, etc.).               |
 | `minDelay`      | `Duration`        | `Duration(milliseconds: 30)`  | Minimum delay between typing each character, to simulate typing speed variance.               |
 | `maxDelay`      | `Duration`        | `Duration(milliseconds: 150)` | Maximum delay between typing each character, to simulate typing speed variance.               |
